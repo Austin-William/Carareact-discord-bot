@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client({ intents: ['GUILDS', 'GUILD_MESSAGES'] });
 
-const token = '';
+const token = process.env.API_TOKEN;
 
 const help = '```\nAvailable command : \n\n \
 - !rip : show this message\n\n \

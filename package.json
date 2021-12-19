@@ -6,6 +6,9 @@
   "scripts": {
     "start": "node index.js"
   },
+  "engines": {
+    "node": ">=16.0.0"
+  },
   "author": "Kayfun",
   "license": "ISC",
   "dependencies": {
